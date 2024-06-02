@@ -22,3 +22,4 @@ menuIcon.addEventListener('click', function () {
     slideoutMenu.style.pointerEvents = 'auto';
   }
 })
+exports.build = series(scssTask, jsTask);
